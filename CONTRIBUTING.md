@@ -1,4 +1,4 @@
-# Contributing to Pocket
+# Contributing to Farren Wuffet
 
 Small improvements are welcome. Keep the tool easy to download, open and understand.
 

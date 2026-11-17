@@ -1,14 +1,14 @@
-# Pocket — Budget & Miles
+# Farren Wuffet — Budget & Miles
 
 A small, free budgeting tool you can download and open in your browser. Bring your card statements to an AI you already use, review the results, and see your spending and an illustrative Singapore miles card plan.
 
 **No coding, GitHub account, installation or bank connection is needed.** This is a working preview with sample data. A live hosted website has not been set up yet.
 
-## Open Pocket in a few clicks
+## Open Farren Wuffet in a few clicks
 
 1. On this page, click the green **Code** button, then **Download ZIP**.
 2. Unzip the downloaded folder.
-3. Double-click **index.html** to open Pocket in a current browser, such as Chrome, Edge, Firefox or Safari.
+3. Double-click **index.html** to open Farren Wuffet in a current browser, such as Chrome, Edge, Firefox or Safari.
 
 You can also open [index.html](index.html) on GitHub and use **Download raw file** to download just that one file. The HTML contains everything the tool needs; keep the file and open it whenever you want to use it.
 
@@ -16,19 +16,19 @@ The sample month is fictional. Explore it first without sharing any statements.
 
 ## Use your own statements
 
-1. **Get the prompt.** In Pocket, choose **Use my own AI** or **Get the AI prompt**, then copy or download the prompt. A plain-text copy is also available in [prompts/statement-to-budget.txt](prompts/statement-to-budget.txt).
-2. **Use your chosen AI.** Download your credit/debit card statements as PDFs from your bank. Attach them to your own AI agent with the prompt. Remove personal identifiers first. Ask the AI to check transactions, repayments, refunds and possible duplicates against the statements, then return the reviewed JSON data. JSON is simply the structured text that Pocket can read; you do not need to write it yourself.
+1. **Get the prompt.** In Farren Wuffet, choose **Use my own AI** or **Get the AI prompt**, then copy or download the prompt. A plain-text copy is also available in [prompts/statement-to-budget.txt](prompts/statement-to-budget.txt).
+2. **Use your chosen AI.** Download your credit/debit card statements as PDFs from your bank. Attach them to your own AI agent with the prompt. Remove personal identifiers first. Ask the AI to check transactions, repayments, refunds and possible duplicates against the statements, then return the reviewed JSON data. JSON is simply the structured text that Farren Wuffet can read; you do not need to write it yourself.
 3. **Import and review.** Choose **Import & review data**, paste the returned JSON and import it. Check categories, your monthly budget and rewards eligibility. Then open **Plan my cards** to compare the available two-card and three-card illustrations.
 
-Pocket currently handles **one calendar month in SGD** at a time. Unknown rewards eligibility stays out of the miles estimate until you verify it. A merchant name alone does not establish the merchant category code or payment channel used by a bank.
+Farren Wuffet currently handles **one calendar month in SGD** at a time. Unknown rewards eligibility stays out of the miles estimate until you verify it. A merchant name alone does not establish the merchant category code or payment channel used by a bank.
 
-**PDF selection is a demonstration only.** Pocket does not read PDF contents, connect to an AI service, or extract transactions itself. Your own AI handles the PDFs, and you bring its reviewed JSON back into Pocket.
+**PDF selection is a demonstration only.** Farren Wuffet does not read PDF contents, connect to an AI service, or extract transactions itself. Your own AI handles the PDFs, and you bring its reviewed JSON back into Farren Wuffet.
 
 ## Keep your work and share the tool
 
 - Choose **Export my data** to save your reviewed transactions as a private JSON file. You can import that file's text in a later session.
 - Changes exist only in the open page's memory. Closing or refreshing the page resets them, so export before leaving.
-- Choose **Download clean HTML** to share a fresh sample-data copy of Pocket. This is separate from your private transaction export.
+- Choose **Download clean HTML** to share a fresh sample-data copy of Farren Wuffet. This is separate from your private transaction export.
 - Use **Reset demo** to return to the fictional example month.
 
 The HTML makes no network requests and has no analytics, server, sign-in, API key or automatic data storage. Official bank reference links open external sites only when you click them. Any statements you attach to a separate AI service go to that provider and are subject to its settings and terms.
@@ -51,10 +51,10 @@ Keep your budget first. Earning miles should not require extra spending or carry
 
 ## Make it your own
 
-Pocket is plain HTML, CSS and JavaScript in [index.html](index.html), with no build step or dependencies. You can ask your own AI coding agent to adapt it, inspect the calculations, add supported cards or change the design.
+Farren Wuffet is plain HTML, CSS and JavaScript in [index.html](index.html), with no build step or dependencies. You can ask your own AI coding agent to adapt it, inspect the calculations, add supported cards or change the design.
 
 Use fictional examples when sharing a change. Never put real statements, transaction exports, personal details or API keys in this public repository. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-Original code is available under the [MIT License](LICENSE). Bank names identify their products; Pocket is not affiliated with those banks.
+Original code is available under the [MIT License](LICENSE). Bank names identify their products; Farren Wuffet is not affiliated with those banks.
